@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add_user"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="Add User" />
+        <item
+            android:id="@+id/nav_manage_users"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Manage Users" />
+        <item
+            android:id="@+id/nav_add_region"
+            android:icon="@drawable/ic_add_location_black_24dp"
+            android:title="Add Region" />
+        <item
+            android:id="@+id/nav_export"
+            android:icon="@drawable/ic_file_download_black_24dp"
+            android:title="Export" />
+        <item
+            android:id="@+id/nav_sync"
+            android:icon="@drawable/ic_sync_black_24dp"
+            android:title="Synchronize" />
+
+    </group>
+</menu>

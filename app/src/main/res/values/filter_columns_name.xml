@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="column">Choose column</string>
+
+    <string-array name="column_name_array">
+        <item>S.No</item>
+        <item>G.No</item>
+        <item>PS</item>
+        <item>Gender</item>
+        <item>Name</item>
+        <item>Father Name</item>
+        <item>CNIC</item>
+        <item>Village</item>
+        <item>Present Location</item>
+        <item>Political Person</item>
+        <item>Stat Block Code</item>
+    </string-array>
+
+
+
+</resources>

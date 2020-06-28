@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btn_political_person_detail"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/row_padding"
+        android:text="View"
+        android:onClick="political_person_detail_view"
+        />
+
+    <TextView
+        android:id="@+id/tv_political_person_name"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="PP Name"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/name"
+        android:textSize="@dimen/name"
+        />
+
+    <TextView
+        android:id="@+id/tv_affiliated_alive_person"
+        android:text="PP Alive Count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_political_person_name"
+        android:textColor="@color/count_alive"
+        android:layout_marginRight="@dimen/row_padding"
+        android:textSize="@dimen/count"/>
+
+    <TextView
+        android:id="@+id/tv_dead_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PP Dead Count"
+        android:layout_below="@id/tv_political_person_name"
+        android:layout_toRightOf="@id/tv_affiliated_alive_person"
+        android:textColor="@color/count_dead"
+        android:textSize="@dimen/count"
+        />
+
+
+
+</RelativeLayout>
